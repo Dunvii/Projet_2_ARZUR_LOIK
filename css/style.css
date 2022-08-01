@@ -372,7 +372,6 @@ form .fa-magnifying-glass {
     text-decoration: underline;
 }
 
-
 /* SECTION 2 - POPULAR BOX */
 
 .rightbox {
@@ -834,19 +833,6 @@ footer {
         display: none;
     }
 
-    /* nav li:after {
-        content: "";
-        position: absolute;
-        height: 3px;
-        width: 50%;
-        background-color: #F2F2F2;
-        top: 150px;
-    }
-
-    nav li:hover:after {
-        background-color: #0065FC;
-    } */
-
     header a {
         justify-content: center;
     }
@@ -862,9 +848,6 @@ footer {
         margin: 10% 2% 2% 2%;
     }
 
-
-
-    
     /* SECTION 2 HEBERGEMENTS */
 
     .leftbox_card {
@@ -916,10 +899,6 @@ footer {
     .leftbox_top h1 {
         font-size: 35px;
     }
-
-    /* SECTION 3 ACTIVITES */
-
-    
 
     /* FOOTER */
 
