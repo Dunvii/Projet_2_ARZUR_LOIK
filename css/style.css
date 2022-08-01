@@ -559,26 +559,22 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100%;
-        width: 100%;
         margin: 0% 0% 5% 0%;
     }
+
+    header img {
+        width: 100%;
+        height: 100%;
+        margin-left: 25%;
+    }
+
     
     header li {
         display: flex;
-        width: 100%;
+        width: 50%;
         margin-right: 0px;
     }
-    
-    .desktop_img {
-        content:url("../images/logo/Booki_responsive.png");
-    }
-    
-    header img  {
-        height: 100%;
-        width: 100%;
-    }
-    
+
     nav {
         width: 100%;
     }
@@ -589,11 +585,11 @@ footer {
     
     nav li {
         justify-content: center;
-        width: 100%;
     }
     
     nav a {
         font-size: 30px;
+        
     }
 
     nav a:before {
@@ -606,11 +602,7 @@ footer {
         height: 3px;
         width: 50%;
         background-color: #F2F2F2;
-        top: 200px;
-    }
-
-    nav li:after {
-
+        top: 150px;
     }
 
     nav li:hover:after {
@@ -620,20 +612,21 @@ footer {
     /* SECTION 1 RECHERCHE */
 
     .search_box {
-        align-items: center;
-        margin: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 2%;
     }
 
     .search_filters_box {
-        justify-content: center;
         gap: 10px;
     }
 
     .search_filters_box h2 {
         display: flex;
-        justify-content: center;
+        width: 100%;
     }
 
+    .filters_box {
+        margin-left: 0px;
+    }
 
     .search_bar button {
         padding: 3px;
@@ -727,7 +720,7 @@ footer {
     .leftbox_top {
         display: flex;
         justify-content: space-between;
-        margin: %;
+        margin: 2%;
         align-items: center;
         height: 10%;
     }
@@ -738,6 +731,10 @@ footer {
 
     .star_card i {
         font-size: 26px;
+    }
+
+    .leftbox_card {
+        width: 40%;
     }
 
     /* SECTION 3 ACTIVITES */
@@ -769,12 +766,12 @@ footer {
 {
     /* HEADER */
 
-    nav a {
-        font-size: 20px;
+    header a {
+        justify-content: center;
     }
 
-    nav li:after {
-        top: 180px;
+    nav a {
+        font-size: 20px;
     }
 
     /* SECTION 1 SEARCH */
@@ -785,9 +782,9 @@ footer {
     }
 
     .search_bar {
-        justify-content: center;
+        align-content: center;
     }
-
+    
     /* SECTION 2 HEBERGEMENTS */
 
     .leftbox_card {
@@ -796,9 +793,11 @@ footer {
 
     .leftbox_card_img {
         display: flex;
-        width: 100%;
-        margin: 1%;
-        width: auto;
+        align-items: center;
+        justify-content: center;
+        width: 96%;
+        height: 220px;
+        margin: 2%;
     }
 
     .leftbox_card_img img {
