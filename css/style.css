@@ -554,7 +554,6 @@ form .fa-magnifying-glass {
     color: black;
 }
 
-
 .b1,
 .b4 {
     height: 440px;
@@ -570,7 +569,6 @@ form .fa-magnifying-glass {
 .b5 {
     height: 40%;
 }
-
 
 /* FOOTER */
 footer {
@@ -609,62 +607,6 @@ footer {
 
 @media screen and (max-width: 992px)
 {
-    
-    /* HEADER */
-
-    /* header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0% 0% 5% 0%;
-    }
-
-    header img {
-        width: 100%;
-        height: 100%;
-        margin-left: 25%;
-    }
-
-    
-    header li {
-        display: flex;
-        width: 50%;
-        margin-right: 0px;
-    }
-
-    nav {
-        width: 100%;
-    }
-    
-    nav ul {
-        width: 100%;
-    }
-    
-    nav li {
-        justify-content: center;
-    }
-    
-    nav a {
-        font-size: 30px;
-        
-    }
-
-    nav a:before {
-        display: none;
-    }
-
-    nav li:after {
-        content: "";
-        position: absolute;
-        height: 3px;
-        width: 50%;
-        background-color: #F2F2F2;
-        top: 150px;
-    }
-
-    nav li:hover:after {
-        background-color: #0065FC;
-    } */
 
     /* SECTION 1 RECHERCHE */
 
@@ -797,39 +739,36 @@ footer {
     /* SECTION 3 ACTIVITES */
 
     .activites {
-        margin: 2%;
+        margin: 5%;
     }
 
     .act_prebox {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
         height: 100%;
     }
 
-    .act_box {
-        width: 90%;
-        height: 440px;
-    }
-
     .act_card {
-        height: 50%;
+        height: 280px;
+        width: 100%;
+        margin: 2%;
     }
 
-    .box1,
-    .box3, {
-        height: 50%;
+    .b1 .act_card_title,
+    .b2 .act_card_title,
+    .b3 .act_card_title,
+    .b4 .act_card_title,
+    .b5 .act_card_title,
+    .b6 .act_card_title {
+        height: 25%;
     }
 
-    .box1 .act_img,
-    .box3 .act_img {
-        height: 65%;
+    .b1 .act_img,
+    .b2 .act_img,
+    .b3 .act_img,
+    .b4 .act_img,
+    .b5 .act_img,
+    .b6 .act_img {
+        height: 75%;
     }
-
-    .act_card_title {
-        height: 35%;
-    }
-
 
     /* FOOTER */
 
@@ -883,13 +822,19 @@ footer {
 
     nav li {
         justify-content: center;
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 20px;
+    }
+
+    nav li:hover {
+        border-bottom: 3px solid #0065FC;
     }
 
     nav a:before {
         display: none;
     }
 
-    nav li:after {
+    /* nav li:after {
         content: "";
         position: absolute;
         height: 3px;
@@ -900,7 +845,7 @@ footer {
 
     nav li:hover:after {
         background-color: #0065FC;
-    }
+    } */
 
     header a {
         justify-content: center;
