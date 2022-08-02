@@ -160,55 +160,6 @@ nav a:hover:before {
     cursor: pointer;
 }
 
-/* .form {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.search_bar {
-    display: flex;
-    flex-direction: row;
-    border-radius: 12px 12px 12px 12px;
-    background-color: #F2F2F2;
-    margin: 15px 0px;
-}
-
-.search_bar i {
-    padding: 15px;
-}
-
-.search_bar input {
-    display: flex;
-    border: none;
-    padding: 15px;
-    font-weight: bold;
-}
-
-.search_bar input::placeholder {
-    opacity: 1;
-}
-
-.search_bar input:focus {
-    outline-offset: 0px !important;
-    outline: none !important;
-}
-.search_bar button {
-    display: flex;
-    background-color: #0065FC;
-    border-radius: 0px 12px 12px 0px;
-    border: 15px;
-    color: white;
-    padding: 16px;
-    font-weight: bold;
-}
-
-.search_bar button:hover {
-    background-color: #DEEBFF;
-    color: black;
-    cursor: pointer;
-} */
-
 .search_filters_box {
     display: flex;
     flex-wrap: wrap;
