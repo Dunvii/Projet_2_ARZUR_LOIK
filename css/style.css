@@ -117,7 +117,6 @@ nav a:hover:before {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 50px;
     margin: 2% 0%;
 }
 
@@ -134,9 +133,14 @@ nav a:hover:before {
     border-right: none;
     padding: 14px;
     font-weight: bold;
+    color: black;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     flex-grow: 1;
+}
+
+.search_bar input::placeholder {
+    opacity: 1;
 }
 
 .search_bar input:focus {
@@ -211,6 +215,7 @@ nav a:hover:before {
 }
 
 .search_bottom i {
+    display: flex;
     margin-right: 5px;
     padding: 5px 8px;
     border: #F2F2F2 2px solid;
@@ -220,6 +225,7 @@ nav a:hover:before {
 }
 
 .search_bottom h6 {
+    display: flex;
     font-weight: normal;
     font-size: medium;
 }
@@ -633,7 +639,7 @@ footer {
         width: 100%;
         background-color: #F2F2F2;
         border-radius: 0px;
-        margin: 2% 0% 2% 0%;
+        padding: 2% 0%;
     }
 
     .rightbox_title {
@@ -771,6 +777,30 @@ footer {
 {
     /* HEADER */
 
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .search_bottom h6 {
+        font-size: 18px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    i .fa-star{
+        font-size: 1px;
+    }
+
     header {
         display: flex;
         flex-direction: column;
@@ -827,21 +857,30 @@ footer {
         margin: 10% 5% 2% 5%;
     }
 
+    .search_box h1 {
+        font-weight: bold;
+    }
+
     .search_bar form {
         width: 100%;
         margin: 5% 0%;
     }
 
     .search_bar i.fa-map-marker-alt{
-        padding: 19px;
+        padding: 16px;
     }
     .search_bar input {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bold;
     }
 
     .search_bar .fa-magnifying-glass {
-        font-size: 23px;
+        font-size: 15px;
+    }
+
+    .search_bottom {
+        margin: 8% 0%;
+        align-items: flex-start;
     }
 
     /* SECTION 2 HEBERGEMENTS */
@@ -885,12 +924,33 @@ footer {
         height: 10%;
     }
 
+    .popularbox_img {
+        display: flex;
+        align-items: center;
+        height: 150px;
+        width: 30%;
+        margin: 1%;
+    }
+
     /* SECTION 3 ACTIVITES */
 
     .act_card {
         height: 200px;
         width: 100%;
         margin-bottom: 5%;
+    }
+
+    .popularbox_title {
+        height: 30%;
+        justify-content: space-between;
+    }
+
+    .popularbox_content {
+        padding: 5% 5% 0% 2%;
+    }
+
+    .popularbox_img {
+        width: 50%;
     }
 
     .b1 .act_img,
