@@ -40,7 +40,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 50px 3% 2% 3%;
+    margin: 50px 1% 2% 1%;
 }
 
 header img {
@@ -645,7 +645,7 @@ footer {
     }
 
     .popularbox {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     .popularbox_img {
@@ -677,6 +677,7 @@ footer {
         width: 70%;
     }
 
+
     .leftbox {
         width: 100%;
         border-radius: 0px;
@@ -697,6 +698,11 @@ footer {
 
     .leftbox_card {
         width: 40%;
+        margin-bottom: 5%;
+    }
+
+    .leftbox_bottom {
+        margin-left: 6%;
     }
 
     /* SECTION 3 ACTIVITES */
@@ -716,7 +722,7 @@ footer {
     .act_card {
         height: 280px;
         width: 100%;
-        margin: 2%;
+        margin-bottom: 5%;
     }
 
     .b1 .act_card_title,
