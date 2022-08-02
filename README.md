@@ -11,5 +11,9 @@
 
 ## Screenshots
 
-![App Screenshot](https://i.gyazo.com/8b586b6845211180b64e2c0f17739daf.png)
+![App Screenshot](https://raw.githubusercontent.com/Dunvii/Projet_2_ARZUR_LOIK/main/images/Desktop-min.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Dunvii/Projet_2_ARZUR_LOIK/main/images/Tablet-min.png)
+
+![App Screenshot](https://raw.githubusercontent.com/Dunvii/Projet_2_ARZUR_LOIK/main/images/Mobile-min.png)
 
