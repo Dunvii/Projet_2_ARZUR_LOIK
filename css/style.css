@@ -705,6 +705,11 @@ footer {
         margin: 5%;
     }
 
+    .activites h1 {
+        margin-left: 2%;
+        font-size: 35px;
+    }
+
     .act_prebox {
         height: 100%;
     }
@@ -765,8 +770,8 @@ footer {
 
     header img {
         width: 100%;
-        height: 100%;
-        margin-left: 25%;
+        height: 100px;
+        margin-left: 10%;
     }
 
     header li {
@@ -814,6 +819,10 @@ footer {
 
     .search_bar form {
         width: 100%;
+    }
+
+    .search_bar .fa-magnifying-glass {
+        font-size: 16px;
     }
 
     /* SECTION 2 HEBERGEMENTS */
