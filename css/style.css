@@ -108,32 +108,49 @@ nav a:hover:before {
     margin-bottom: 10px;
 }
 
-.form {
+.search_bar {
     display: flex;
-    align-items: center;
     width: 100%;
 }
 
-.search_bar .fa-map-marker-alt {
-    padding: 15px;
+.search_bar form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    margin: 2% 0%;
+}
+
+.search_bar i.fa-map-marker-alt{
+    display: flex;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
+    padding: 15px;
 }
 
 .search_bar input {
-    padding: 15px;
-    border-top: #F2F2F2 1px solid;
-    border-bottom: #F2F2F2 1px solid;
-    border-right: none;
+    display: flex;
     border-left: none;
+    border-right: none;
+    padding: 14px;
+    font-weight: bold;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    flex-grow: 1;
+}
+
+.search_bar input:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
 }
 
 .search_bar button {
+    display: flex;
     background-color: #0065FC;
     border-radius: 0px 12px 12px 0px;
-    border: 1px;
+    border: 15px;
     color: white;
-    padding: 16px;
+    padding: 15px;
     font-weight: bold;
 }
 
@@ -143,16 +160,13 @@ nav a:hover:before {
     cursor: pointer;
 }
 
-.search_bar input::placeholder {
-    opacity: 1;
+/* .form {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
-.search_bar input:focus {
-    outline-offset: 0px !important;
-    outline: none !important;
-}
-
-/* .search_bar {
+.search_bar {
     display: flex;
     flex-direction: row;
     border-radius: 12px 12px 12px 12px;
@@ -165,6 +179,7 @@ nav a:hover:before {
 }
 
 .search_bar input {
+    display: flex;
     border: none;
     padding: 15px;
     font-weight: bold;
@@ -179,6 +194,7 @@ nav a:hover:before {
     outline: none !important;
 }
 .search_bar button {
+    display: flex;
     background-color: #0065FC;
     border-radius: 0px 12px 12px 0px;
     border: 15px;
@@ -626,13 +642,10 @@ footer {
         margin-left: 0px;
     }
 
-    .search_bar button {
-        padding: 15px;
-        border-radius: 12px 12px 12px 12px;
-    }
 
     form .fa-magnifying-glass {
         display: flex;
+        width: 100%;
     }
     .search_btn {
         display: none;
@@ -846,6 +859,10 @@ footer {
     .search_box {
         align-items: flex-start;
         margin: 10% 2% 2% 2%;
+    }
+
+    .search_bar form {
+        width: 100%;
     }
 
     /* SECTION 2 HEBERGEMENTS */
