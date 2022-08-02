@@ -573,7 +573,19 @@ footer {
 
 @media screen and (max-width: 992px)
 {
+    /* ALL */
 
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
     /* SECTION 1 RECHERCHE */
 
     .search_box {
@@ -625,9 +637,6 @@ footer {
         height: 10%;
     }
 
-    .rightbox_title h1 {
-        font-size: 35px;
-    }
 
     .pre_popularbox {
         justify-content: space-around;
@@ -656,12 +665,7 @@ footer {
     }
 
     .popularbox_title h2 {
-        font-size: 35px;
         margin-bottom: 2%;
-    }
-
-    .popularbox_title h4 {
-        font-size: 30px;
     }
 
 
@@ -687,10 +691,6 @@ footer {
         height: 10%;
     }
 
-    .leftbox_top h1 {
-        font-size: 35px;
-    }
-
     .star_card i {
         font-size: 26px;
     }
@@ -707,7 +707,6 @@ footer {
 
     .activites h1 {
         margin-left: 2%;
-        font-size: 35px;
     }
 
     .act_prebox {
@@ -853,13 +852,6 @@ footer {
         color: #000000;
     }
     
-    .leftbox_card h2 {
-        font-size: 31px;
-    }
-    
-    .leftbox_card h4 {
-        font-size: 28px;
-    }
 
     .leftbox_title {
         width: 80%;
@@ -871,10 +863,6 @@ footer {
         margin: 5%;
         align-items: center;
         height: 10%;
-    }
-
-    .leftbox_top h1 {
-        font-size: 35px;
     }
 
     /* FOOTER */
