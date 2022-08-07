@@ -618,7 +618,7 @@ footer {
     .search_bar i.fa-map-marker-alt{
         position: relative;
         right: -5px;
-        padding: 16px;
+        padding: 17px;
     }
 
 
@@ -631,7 +631,7 @@ footer {
         border-radius: 12px;
         position: relative;
         left: -15px;
-        padding: 16px;
+        padding: 17px;
     }
     .search_btn {
         display: none;
