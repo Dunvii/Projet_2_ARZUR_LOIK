@@ -409,6 +409,7 @@ form .fa-magnifying-glass {
     flex-direction: column;
     justify-content: space-between;
     height: 50%;
+    margin: 4% 0 0 0;
 }
 
 .popularbox_title h4 {
@@ -598,7 +599,7 @@ footer {
     /* SECTION 1 RECHERCHE */
 
     .search_box {
-        margin: 0% 0% 0% 2%;
+        margin: 0% 0% 2% 2%;
     }
 
     .search_filters_box {
@@ -614,6 +615,12 @@ footer {
         margin-left: 0px;
     }
 
+    .search_bar i.fa-map-marker-alt{
+        position: relative;
+        right: -5px;
+        padding: 15px;
+    }
+
 
     form .fa-magnifying-glass {
         display: flex;
@@ -622,6 +629,9 @@ footer {
 
     .search_bar button {
         border-radius: 12px;
+        position: relative;
+        left: -15px;
+        padding: 16px;
     }
     .search_btn {
         display: none;
@@ -686,7 +696,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 2% 0% 4% 4%;
+        margin: 0% 0% 4% 4%;
         width: 70%;
     }
 
@@ -880,6 +890,7 @@ footer {
         font-size: 15px;
         font-weight: bold;
     }
+
 
     .search_bar .fa-magnifying-glass {
         font-size: 15px;
